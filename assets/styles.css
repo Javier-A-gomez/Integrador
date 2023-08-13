@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400;500;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    familia tipográfica: 'Roboto', sans-serif;
+}
+
+header {
+   height: 80px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 50px;
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+   position: fixed;
+   top: 0;
+   background-color: white;
+   z-index: 1;
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar i {
+    font-size: 35px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar-list {
+    gap: 50px;
+}
+
+.navbar-list :hover {
+    border-bottom: 1px solid black
+}
+
+.navbar-list a {
+    color: blue;
+}
+
+.logo {
+  height: 50%;
+}
+
+.cart {
+    font-weight: 600;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.hero {
+    margin-top: 80px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: self-end;
+    background-image: url(./Gym.jpg);
+    background-position: center center;
+    background-size: cover;  
+}
+
+
+    
+
+
+
+.btn-login {
+    background-color: #BBBBBB;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .btn-register {
+    background-color: #BBBBBB;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .button-container a:hover {
+    background-color: #00c3ff;
+}
+ 
+
+
+.about-section {
+    padding: 100px 100px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+
+.section-title {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.info {
+    padding: 100px 100px;
+}
+
+.info h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.card-container {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-card {
+    width: 300px;
+    height: 350px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #00d084;
+    border-radius: 30px;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-card img {
+    width: 130px;
+    border-radius: 8px;
+}
+
+.info-card p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+#contact {
+    padding: 50px;
+    text-align: center;
+
+}
+
+#contact h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: ;
+    text-shadow: ;
+    
+}
+
+#contact p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: ;
+    text-shadow: ;
+}
+
+#contact .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.redes-sociales a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+  }
+
+  .redes-sociales a:hover {
+    color: #00c3ff;
+  }
+  
+  .redes-sociales img {
+    width: 50px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #242628;
+    padding: 80px 0px; 
+    margin: 50px 0 0 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 20%;
+    padding: 0 15px;
+} 
+
+.footer-links h4 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+    background-color: #00c3ff;
+}
+
