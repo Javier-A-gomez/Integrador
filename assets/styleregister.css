@@ -72,6 +72,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+   
+   
 }
 
 form {
@@ -80,8 +82,9 @@ form {
     border-radius: 20px;
     text-align: center;
     width: 400px;
+    background: yellowgreen;
 }
-
+    
 .input-group {
     display: flex;
     flex-direction: column;
