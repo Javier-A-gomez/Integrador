@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 992px) { 
 
     .navbar-list {
         width: 100%;
@@ -69,14 +69,35 @@
 
         .iframe {
             height: 350px;
-            width: 400px;
-            
+            width: 400px; 
         }
+
+        @media (max-width: 330px) {
+        .info h2 {
+            width: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-container {
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #contact {
+            width: 600px;
+        }
+        
     }
 
 
 
+
     
-        
-       
-    }    
+}
+
+
